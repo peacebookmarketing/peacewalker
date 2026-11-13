@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get in Touch | Peace Walker Book Marketing</title>
+  <meta name="description" content="Reach out directly to US-based book marketing strategist Peace Walker to discuss custom marketing campaigns, retail optimization, and advertising strategies." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ==========================================
+       NAVIGATION
+       ========================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="Peace Walker" />
+        <span>Peace Walker</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="packages.html" class="nav-link">Packages</a></li>
+        <li><a href="process.html" class="nav-link">Process</a></li>
+        <li><a href="contact.html" class="nav-link nav-cta active">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==========================================
+       PAGE HERO
+       ========================================== -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-grid">
+        <div class="page-hero-text">
+          <p class="hero-eyebrow">Start a Conversation</p>
+          <h1>Let Us Discuss Your Book's Market Strategy</h1>
+          <p>
+            Share details about your manuscript, release timeline, and marketing goals.
+            I review every inquiry personally and respond with an honest assessment and custom proposal.
+          </p>
+        </div>
+        <div class="page-hero-image">
+          <div class="page-hero-image-frame">
+            <img src="My creative Journal.png" alt="Peace Walker, Book Marketing Strategist" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CONTACT SECTION (FORM + SIDEBAR)
+       ========================================== -->
+  <section class="section section-cream">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Form Wrapper -->
+        <div class="contact-form-wrapper">
+          <div class="form-header">
+            <p class="section-eyebrow">Project Inquiry</p>
+            <h2>Tell Me About Your Book</h2>
+            <p>
+              Please complete the fields below to help me understand your publishing project.
+              I will respond within 24 to 48 business hours.
+            </p>
+          </div>
+
+          <form action="https://formsubmit.co/peacewalker039@gmail.com" method="POST" class="contact-form">
+            <!-- FormSubmit Configurations -->
+            <input type="hidden" name="_subject" value="New Book Marketing Inquiry - Peace Walker Website" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" style="display:none" />
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="authorName" class="form-label">Full Name / Author Name *</label>
+                <input type="text" id="authorName" name="Author_Name" class="form-input" placeholder="e.g. Jane Austen" required />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address *</label>
+                <input type="email" id="email" name="Email" class="form-input" placeholder="jane@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="bookTitle" class="form-label">Book Title &amp; Genre *</label>
+                <input type="text" id="bookTitle" name="Book_Title_and_Genre" class="form-input" placeholder="Title, Subtitle &amp; Primary Genre" required />
+              </div>
+              <div class="form-group">
+                <label for="publishingStatus" class="form-label">Publishing Status *</label>
+                <select id="publishingStatus" name="Publishing_Status" class="form-select" required>
+                  <option value="" disabled selected>Select current status</option>
+                  <option value="Pre-Launch (Writing / Editing)">Pre-Launch (Manuscript Stage)</option>
+                  <option value="Upcoming Launch (Next 1-3 Months)">Upcoming Release (Next 1 to 3 Months)</option>
+                  <option value="Recently Published (Last 6 Months)">Recently Released (Last 6 Months)</option>
+                  <option value="Backlist Title (Published Over 6 Months)">Backlist Refresh (Published Over 6 Months)</option>
+                  <option value="Multi-Book Series">Multi-Book Series / Catalogue</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="budget" class="form-label">Estimated Marketing Budget *</label>
+                <select id="budget" name="Estimated_Budget" class="form-select" required>
+                  <option value="" disabled selected>Select investment tier</option>
+                  <option value="Starter Package ($299+)">Starter Essential ($299+)</option>
+                  <option value="Growth Package ($599+)">Growth Campaign ($599+)</option>
+                  <option value="Global Package ($1,199+)">Global Authority ($1,199+)</option>
+                  <option value="Custom Project Scope ($1,500+)">Custom Enterprise Scope ($1,500+)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="country" class="form-label">Country / Region *</label>
+                <input type="text" id="country" name="Country_Region" class="form-input" placeholder="e.g. United States, United Kingdom" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="howFound" class="form-label">How Did You Hear About Peace Walker?</label>
+              <select id="howFound" name="How_Found" class="form-select">
+                <option value="" disabled selected>Select an option</option>
+                <option value="Organic Search (Google)">Google / Web Search</option>
+                <option value="Author Referral">Author / Colleague Referral</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Industry Article / Podcast">Industry Article or Podcast</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Project Details &amp; Objectives *</label>
+              <textarea id="message" name="Project_Details" class="form-textarea" placeholder="Please share a brief summary of your book, target readers, primary challenges, and what you hope to achieve through this campaign..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Submit Project Inquiry</button>
+          </form>
+        </div>
+
+        <!-- Contact Sidebar Info -->
+        <div class="contact-info">
+
+          <!-- Direct Email Box -->
+          <div class="direct-email-box">
+            <h3>Direct Email Contact</h3>
+            <p>
+              Prefer to write directly from your email client? You can send your manuscript summary,
+              retail links, or project questions directly to my inbox.
+            </p>
+            <a href="mailto:peacewalker039@gmail.com" class="email-display">peacewalker039@gmail.com</a>
+            <p class="email-instruction">
+              I review all correspondence personally and respond within 24 to 48 business hours.
+            </p>
+          </div>
+
+          <!-- Who I Serve -->
+          <div class="contact-who">
+            <h3>Who I Partner With</h3>
+            <ul class="who-list">
+              <li>Debut authors seeking a high-converting launch strategy</li>
+              <li>Bestselling fiction writers expanding international ad reach</li>
+              <li>Nonfiction &amp; executive authors building domain authority</li>
+              <li>Independent self-publishers optimizing series sales funnels</li>
+              <li>Publishing houses seeking external campaign management</li>
+            </ul>
+
+            <div class="privacy-note">
+              <strong>100% Confidentiality Assured:</strong> Your manuscript, personal information,
+              and campaign strategy details remain strictly confidential and will never be shared with third parties.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <img src="logo.png" alt="Peace Walker" />
+            <span>Peace Walker</span>
+          </a>
+          <p>
+            Premium book marketing for authors and publishers worldwide.
+            Based in the United States, serving clients globally with bespoke
+            campaigns that connect extraordinary books with the readers who
+            are searching for them.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="packages.html">Packages</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="process.html">My Process</a></li>
+            <li><a href="packages.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <p class="footer-contact-text">
+            <a href="mailto:peacewalker039@gmail.com">peacewalker039@gmail.com</a>
+          </p>
+          <p class="footer-contact-text">
+            Based in the United States. Available to authors and publishers worldwide.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span class="current-year">2025</span> Peace Walker. All rights reserved.</p>
+        <p>Premium Book Marketing</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
